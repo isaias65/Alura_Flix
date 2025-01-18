@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "value": "FRONT END",
+      "color": "#6BD1FF"
+    },
+    {
+      "id": "2",
+      "value": "BACK END",
+      "color": "#00C86F"
+    },
+    {
+      "id": "3",
+      "value": "INNOVACIÓN Y GESTIÓN",
+      "color": "#FFBA05"
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "Video de prueba",
+      "categoria": 2,
+      "imagen": "https://link-a-imagen.com",
+      "video": "https://link-a-video.com",
+      "descripcion": "Descripción del video",
+      "id": "a90f"
+    },
+    {
+      "id": "3161",
+      "titulo": "Prueba web",
+      "categoria": "3",
+      "imagen": "https://img.kwcdn.com/product/fancy/cef76064-cd80-4130-9236-6a0ab165ea38.jpg?imageView2/2/w/800/q/70/format/webp",
+      "video": "fsfsa",
+      "descripcion": "enla ce de prueba"
+    },
+    {
+      "titulo": "Prueba web",
+      "categoria": "2",
+      "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/67122b1bc267595fa4a5961a6ba32134.jpg?imageView2/2/w/800/q/70/format/webp",
+      "video": "fsfsa",
+      "descripcion": "a",
+      "id": "7fc4"
+    },
+    {
+      "id": "fbb0",
+      "titulo": "Video de prueba",
+      "categoria": "2",
+      "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/67122b1bc267595fa4a5961a6ba32134.jpg?imageView2/2/w/800/q/70/format/webp",
+      "video": "https://link-a-video.com",
+      "descripcion": "a"
+    },
+    {
+      "id": "78f1",
+      "titulo": "Video de prueba",
+      "categoria": "1",
+      "imagen": "https://link-a-imagen.com",
+      "video": "https://link-a-video.com",
+      "descripcion": "a"
+    },
+    {
+      "id": "1063",
+      "titulo": "Video de prueba",
+      "categoria": "1",
+      "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/67122b1bc267595fa4a5961a6ba32134.jpg?imageView2/2/w/800/q/70/format/webp",
+      "video": "https://link-a-video.com",
+      "descripcion": "aa"
+    },
+    {
+      "id": "78f12",
+      "titulo": "Video de prueba",
+      "categoria": "1",
+      "imagen": "https://link-a-imagen.com",
+      "video": "https://link-a-video.com",
+      "descripcion": "a"
+    },
+    {
+      "id": "10635566",
+      "titulo": "Video de prueba",
+      "categoria": "1",
+      "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/67122b1bc267595fa4a5961a6ba32134.jpg?imageView2/2/w/800/q/70/format/webp",
+      "video": "https://link-a-video.com",
+      "descripcion": "aa"
+    },
+    {
+      "id": "a90",
+      "titulo": "Prueba web",
+      "categoria": "1",
+      "imagen": "https://img.freepik.com/fotos-kostenlos/schoene-anime-neujahrs-szene_23-2151038098.jpg",
+      "video": "fsfsa",
+      "descripcion": "adad"
+    },
+    {
+      "id": "a90f1",
+      "titulo": "Prueba web1",
+      "categoria": "1",
+      "imagen": "https://img.freepik.com/fotos-kostenlos/schoene-anime-neujahrs-szene_23-2151038098.jpg",
+      "video": "fsfsa",
+      "descripcion": "adad"
+    },
+    {
+      "id": "a90f5",
+      "titulo": "Prueba web5",
+      "categoria": "1",
+      "imagen": "https://img.freepik.com/fotos-kostenlos/schoene-anime-neujahrs-szene_23-2151038098.jpg",
+      "video": "fsfsa",
+      "descripcion": "adad"
+    }
+  ]
+}

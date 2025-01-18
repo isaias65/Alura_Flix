@@ -1,0 +1,43 @@
+.boton_base {
+    width: 180px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.boton_activo {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0px 0px 12px 4px #2271d1;
+    color: #2271d1; 
+    border: none;
+    cursor: pointer;
+}
+
+.boton_activo:hover {
+    background-color: #2271d1; 
+    color: white; 
+}
+
+.boton_desactivado {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.boton_desactivado:hover {
+    background-color: transparent; 
+    color: white !important; 
+}
+
+.boton_base:hover {
+    background-color: #2271d1; 
+    color: white !important;
+}

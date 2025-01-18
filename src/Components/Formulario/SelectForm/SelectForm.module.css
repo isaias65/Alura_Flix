@@ -1,0 +1,81 @@
+/* SelectForm.module.css */
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.input {
+    font-size: 1.15rem;
+    border: 3px solid rgba(38, 38, 38, 1); /* Borde por defecto */
+    border-radius: 10px;
+    padding: 14px 10px;
+    background-color: transparent;
+    color: rgba(165, 165, 165, 1);
+}
+
+.input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(165, 165, 165, 1);
+}
+
+/* Estilos para el estado de error */
+.labelError {
+    color: red; /* Cambia el color del label a rojo */
+}
+
+.inputError {
+    border-color: red; /* Cambia el borde del select a rojo */
+    color: red; /* Cambia el texto del select a rojo */
+}
+
+.inputEdicion {
+    border-color: #2271D1; 
+}
+.inputEdicion:focus {
+    border-color: #0056b3; 
+    box-shadow: 0 0 4px rgba(0, 86, 179, 0.5); 
+}
+
+.inputEdicion::placeholder {
+    color: blue; 
+}
+
+.option {
+    background-color: #03122F; 
+    color: white; 
+}
+
+.option:hover {
+    background-color: #2271D1; 
+}
+
+input:focus,
+select:focus {
+    outline: none; 
+}
+
+select:focus option:checked {
+    background-color: #2271D1;
+    color: white; 
+}
+
+select option:checked {
+    background-color: #2271D1;
+    color: white; 
+}

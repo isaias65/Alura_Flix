@@ -1,0 +1,13 @@
+.container {
+    min-height: 100vh; /* Ocupa toda la altura visible */
+    max-width: 100vw; /* Asegura que no desborde el ancho */
+    width: 100%; /* Garantiza que ocupe el ancho completo */
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+/* InputForm.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+    text-transform: capitalize;
+}
+
+.input {
+    font-size: 1.15rem;
+    border: 3px solid rgba(38, 38, 38, 1); /* Borde por defecto (gris oscuro) */
+    border-radius: 10px;
+    padding: 14px 10px;
+    background-color: transparent;
+    color: rgba(165, 165, 165, 1);
+}
+
+.input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.input::placeholder {
+    color: rgba(165, 165, 165, 1);
+}
+
+/* Estilos para el estado de error */
+.labelError {
+    color: red; /* Cambia el color del label a rojo */
+}
+
+.inputError {
+    border-color: red; /* Cambia el borde del input a rojo en caso de error */
+    color: red; /* Cambia el texto del input a rojo */
+}
+
+.inputError::placeholder {
+    color: red; /* Cambia el color del placeholder a rojo */
+}
+
+/* Estilo para cuando el input está en modo de edición (borde azul) */
+.inputEdicion {
+    border-color: #2271D1; /* Cambia el borde a azul */ /* Cambia el texto del input a azul */
+}

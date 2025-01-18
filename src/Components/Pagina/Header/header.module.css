@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 50px;
+    border-bottom: 4px solid var(--Blue);
+    background: rgba(0, 0, 0);
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+    position: relative;
+}
+
+.header_logo {
+    width: 168px;
+    height: 40px;
+}
+.header_nav {
+    display: flex;
+    gap: 1.75rem;
+}
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header_nav a:hover {
+    color: var(--Blue);
+}
+
+.hamburger {
+    display: none; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1100;
+    font-size: 2rem; 
+    color: white;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.hamburger:hover {
+    color: var(--Blue);
+    transform: rotate(15deg);
+}
+
+.hamburger .bx {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hamburger:hover .bx {
+    transform: scale(1.1);
+    color: var(--Blue); 
+}
+
+.hamburger.open .bx {
+    transform: rotate(90deg); 
+    color: #f00; 
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        padding: 1.5rem 10px;
+    }
+    .header_nav {
+        display: none;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.95);
+        padding: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        transform: translateY(-20px);
+        opacity: 0;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        color: white;
+    }
+
+    .header_nav.nav_active {
+        display: flex;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .header_nav a {
+        font-size: 1.5rem;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .header_nav a:hover {
+        color: var(--Blue);
+        color: white;
+    }
+}
