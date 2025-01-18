@@ -33,12 +33,12 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/aluraflix.git
+   git clone https://github.com/isaias65/Alura_Flix.git
    ```
 
 2. Navega al directorio del proyecto:
    ```bash
-   cd aluraflix
+   cd Alura_Flix
    ```
 
 3. Instala las dependencias necesarias:
